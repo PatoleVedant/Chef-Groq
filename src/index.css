@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter",sans-serif;
+  box-sizing: border-box;
+  background-color: #FAFAF8;
+}
+.chef-logo{
+  width: 50px;
+  margin-right: 15px;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 32px;
+  border: 2px solid black;
+  height: 13vh;
+  background-color: white;
+  color: #141413;
+  border: none;
+  box-shadow: 0px 1px 2px 0px #0000000F;
+  box-shadow: 0px 1px 3px 0px #0000001A; 
+}
+
+main {
+    padding: 30px 30px 10px;
+}
+
+.Form-Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+
+}
+
+#ingredient{
+  border: none;
+    box-shadow: 0px 1px 2px 0px #0000000F;
+    box-shadow: 0px 1px 3px 0px #0000001A;
+    padding: 10px 5px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#add-btn{
+  font-family: "Inter",sans-serif;
+  background-color: #141413;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.ready-for-recipe-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #F0EFEB;
+  padding: 10px 28px;
+}
+
+.ready-for-recipe-container>div>h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.ready-for-recipe-container>div>div {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+.ready-for-recipe-container button {
+    border: none;
+    border-radius: 6px;
+    background: #D17557;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: #FAFAF8;
+    padding: 9px 17px;
+    font-family: Inter, sans-serif;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+
+.suggested-recipe-container {
+    color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+    margin-bottom: 8px;
+}
